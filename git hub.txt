@@ -1,0 +1,34 @@
+Creating a new repositories in git hub:-
+
+1.create a folder in pc open their git bash
+2.type = touch .gitignore 
+3.type = git config --global user.name Nikhil
+4.type = git config --global user.email "thenikhilsingh27@mail.com"
+5.type = git init
+6.type = add .
+7.type = git commit -m "Initial commit"
+8.type = git status
+9.type = ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+create Authentication Keys:
+
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa:
+clip < ~/.ssh/id_rsa.pub
+
+After this paste the key.
+
+Then 
+type = git remote add origin <SSH LILN>
+type = git push origin master
+--------------------------------------------------------------------------------------------
+
+
+For add some file:
+
+git add .
+git commit -m "Added <file name>"
+git push origin master
+
+
+
